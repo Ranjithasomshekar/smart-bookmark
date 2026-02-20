@@ -1,7 +1,7 @@
 import axios from "axios";
 
 //const API_URL = "http://localhost:5000/bookmarks";
-const API_URL = "https://your-render-link.onrender.com/bookmarks";
+const API_URL = "https://smart-bookmark-backend-4hm0.onrender.com/bookmarks";
 
 
 export const getBookmarks = () => axios.get(API_URL);
