@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/bookmarks";
+//const API_URL = "http://localhost:5000/bookmarks";
+const API_URL = "https://your-render-link.onrender.com/bookmarks";
+
 
 export const getBookmarks = () => axios.get(API_URL);
 
